@@ -15,10 +15,19 @@ public class App {
         System.out.println("\nViajando com o carro basico");
         basico.viaja(250);
         basico.viaja(150);
-        System.out.println(basico);*/
+        System.out.println(basico);
+        */
+
+        /* Esportivo
         Esportivo corvette = new Esportivo();
         corvette.abastece(TipoCombustivel.GASOLINA, 45);
         corvette.viaja(60);
         System.out.print(corvette.toString() + "\n");
+        */
+
+        Utilitario hilux = new Utilitario();
+        hilux.abastece(TipoCombustivel.DIESEL,70);
+        hilux.viaja(150);
+        System.out.println(hilux.toString());
     }
 }
