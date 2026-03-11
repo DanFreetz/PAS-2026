@@ -1,4 +1,3 @@
-
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -25,9 +24,19 @@ public class App {
         System.out.print(corvette.toString() + "\n");
         */
 
+        /* Utilitário 
         Utilitario hilux = new Utilitario();
         hilux.abastece(TipoCombustivel.DIESEL,70);
         hilux.viaja(150);
         System.out.println(hilux.toString());
+        */
+
+        Suv compass = new Suv();
+        compass.abastece(TipoCombustivel.DIESEL, 25);
+        compass.abastece(TipoCombustivel.GASOLINA, 30);
+        compass.viaja(120);
+        System.out.print(compass.toString());
+
+        
     }
 }
