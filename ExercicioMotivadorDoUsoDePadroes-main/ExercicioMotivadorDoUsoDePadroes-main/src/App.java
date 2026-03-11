@@ -1,6 +1,8 @@
+
 public class App {
     public static void main(String[] args) throws Exception {
 
+        /* Básico
         Carro basico = new Carro("Basico", TipoCombustivel.GASOLINA, 10, 55);
 
         System.out.println("Tipos de veiculos:");
@@ -13,6 +15,10 @@ public class App {
         System.out.println("\nViajando com o carro basico");
         basico.viaja(250);
         basico.viaja(150);
-        System.out.println(basico);
+        System.out.println(basico);*/
+        Esportivo corvette = new Esportivo();
+        corvette.abastece(TipoCombustivel.GASOLINA, 45);
+        corvette.viaja(60);
+        System.out.print(corvette.toString() + "\n");
     }
 }
