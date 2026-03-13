@@ -17,10 +17,19 @@ public class App {
         System.out.println(basico);
         */
 
+        /* Esportivo
         Esportivo mustang = new Esportivo();
         mustang.abastece(TipoCombustivel.GASOLINA,45);    
         mustang.viaja(90);
         System.out.println(mustang.toString());
+        */
+
+        
+        Utilitario saveiro = new Utilitario();
+        saveiro.abastece(TipoCombustivel.DIESEL, 70);
+        saveiro.viaja(125);
+        System.out.println(saveiro.toString());
+
     }
 
     
