@@ -8,6 +8,9 @@ public class Carro {
         this.modelo = modelo;
         motor = new Motor(tipoCombustivel, consumoMotor);
         tanque = new TanqueCombustivel(tipoCombustivel, capacidadeTanque);
+        if(modelo.equals("SUV")){
+            tanque = new TanqueCombustivel(tipoCombustivel.GASOLINA, capacidadeTanque);
+        }
     }
 
     public String getModelo() {

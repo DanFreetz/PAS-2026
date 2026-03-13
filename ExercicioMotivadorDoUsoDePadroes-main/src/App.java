@@ -24,12 +24,17 @@ public class App {
         System.out.println(mustang.toString());
         */
 
-        
+        /* Utilitário
         Utilitario saveiro = new Utilitario();
         saveiro.abastece(TipoCombustivel.DIESEL, 70);
         saveiro.viaja(125);
         System.out.println(saveiro.toString());
+        */
 
+        Suv compass = new Suv();
+        compass.abastece(TipoCombustivel.ALCOOL, 55);
+        compass.viaja(280);
+        System.out.println(compass.toString());
     }
 
     
