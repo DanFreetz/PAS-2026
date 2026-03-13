@@ -31,10 +31,21 @@ public class App {
         System.out.println(saveiro.toString());
         */
 
+        /*SUV
         Suv compass = new Suv();
         compass.abastece(TipoCombustivel.ALCOOL, 55);
         compass.viaja(280);
         System.out.println(compass.toString());
+        */
+
+        SuvFlex tracker = new SuvFlex();
+        tracker.abastece(TipoCombustivel.ALCOOL,40);
+        tracker.viaja(120);
+        System.out.print(tracker.toString());
+        tracker.abastece(TipoCombustivel.GASOLINA, 40);
+        tracker.viaja(80);
+        System.out.println(tracker.toString());
+        
     }
 
     

@@ -9,6 +9,9 @@ public class Motor {
         this.consumo = consumo;
     }
 
+    protected void setConsumo(int novoConsumo){
+        consumo=novoConsumo;
+    }
     public int getConsumo() {
         return this.consumo;
     }
